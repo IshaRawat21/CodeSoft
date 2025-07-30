@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(155, 217, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    height:70vh;
+    width:300px;
+    margin-left:370px;
+    margin-bottom:50px;
+    padding:1px 10px 130px ;
+    background: linear-gradient(380deg ,rgb(151, 208, 224),black,black,rgb(34, 170, 177));
+    border-radius: 10px;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 25px;
+    padding-left: 5px;
+}
+.js-p{
+    color: white;
+    font-size: 30px;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 70px;
+    background-color: rgb(87, 82, 82);
+    border:none;
+    cursor:pointer;
+    color: white;
+    font-size: 25px;
+}
+.btn-blue{
+    background-color: rgb(26, 79, 192);
+    color: white;
+    font-size:28px;
+}
+.btn-gray{
+    background-color: rgb(85, 81, 81);
+    color: rgb(26, 105, 223);
+    font-size: 24px;
+}
+.btn-clear{
+    height: 60px;
+    width: 60px;
+    border-radius: 70px;
+    background-color: rgb(87, 82, 82);
+    color:rgb(16, 122, 209);
+    border:none;
+    cursor:pointer;
+    font-size: 18px;
+}
